@@ -1,0 +1,19 @@
+REST API - JSON
+
+GET /books - HTML Document render - Done
+GET /api /books - return al books
+
+GET /api /books /1 - Get books with ID 1
+GET /api /books /2 - Get books with ID 2
+
+Dynamic Path Parameters
+GET /api /books /:id
+:id -> Variable | Dynamic 
+
+POST /api /books -  add a new book 
+
+POST /api /books /1 - Edit books with ID 1
+
+PUT /api /books/1 - update a book by ID 1
+
+DELETE /api /books/1 - remove a book by ID 1
